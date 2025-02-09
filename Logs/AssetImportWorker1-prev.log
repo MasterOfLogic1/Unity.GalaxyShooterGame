@@ -1,0 +1,2067 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.29f1 (8d510ca76d2b) revision 9261324'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16167 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/david/OneDrive/Documents/Unity/Galaxy Shooter
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53327
+Successfully changed project path to: C:/Users/david/OneDrive/Documents/Unity/Galaxy Shooter
+C:/Users/david/OneDrive/Documents/Unity/Galaxy Shooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [61128] Host "[IP] 172.20.10.3 [Port] 0 [Flags] 2 [Guid] 495853176 [EditorId] 495853176 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-4IU1SNDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [61128] Host "[IP] 172.20.10.3 [Port] 0 [Flags] 2 [Guid] 495853176 [EditorId] 495853176 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-4IU1SNDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 19.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/david/OneDrive/Documents/Unity/Galaxy Shooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8083 MB
+    Driver:   31.0.101.5522
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023649 seconds.
+- Loaded All Assemblies, in  0.552 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.567 seconds
+Domain Reload Profiling: 1116ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (567ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (251ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.086 seconds
+Refreshing native plugins compatible for Editor in 4.19 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.816 seconds
+Domain Reload Profiling: 1899ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (772ms)
+		LoadAssemblies (731ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (816ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (604ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1685 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (45.9 KB). Loaded Objects now: 2170.
+Memory consumption went from 124.1 MB to 124.1 MB.
+Total: 4.165100 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.060700 ms MarkObjects: 3.760100 ms  DeleteObjects: 0.131300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 906869.070375 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00032.png
+  artifactKey: Guid(6b490e43963724ea9b9cd1556828132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00032.png using Guid(6b490e43963724ea9b9cd1556828132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3510eadce1b2a624b530d1a873825773') in 0.113002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00029.png
+  artifactKey: Guid(592a623b9883f40fdbd14650715e348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00029.png using Guid(592a623b9883f40fdbd14650715e348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643596ddaf991cc8d821215b9905a71b') in 0.029731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00008.png
+  artifactKey: Guid(6e79bf9eae111464a948323374ce32f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00008.png using Guid(6e79bf9eae111464a948323374ce32f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69afd1442e1de9e07d99fb384d3d096c') in 0.031023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00020.png
+  artifactKey: Guid(c3baf7f072a6e4a31b5c6885a925689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00020.png using Guid(c3baf7f072a6e4a31b5c6885a925689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07805cb2ca9ceed9cb84c443e84b278') in 0.028305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00026.png
+  artifactKey: Guid(34a342ded83ad428c962af40193edb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00026.png using Guid(34a342ded83ad428c962af40193edb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae88db3f4f62c6c94727a6f7235b0d7') in 0.035711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00028.png
+  artifactKey: Guid(544867a01983e4dd2a740a9bf0048d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00028.png using Guid(544867a01983e4dd2a740a9bf0048d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a363309956301d5236879533e5b8a4c8') in 0.044952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00025.png
+  artifactKey: Guid(5836ff21d80674e5e842348ac351898c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00025.png using Guid(5836ff21d80674e5e842348ac351898c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f75092a23a78a3094c81d00cd2fad0f') in 0.036801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00027.png
+  artifactKey: Guid(d1faac70da014416ab21c4b5cdbbedf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00027.png using Guid(d1faac70da014416ab21c4b5cdbbedf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b0be0827d64170bea440cad6853c24') in 0.039869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00001.png
+  artifactKey: Guid(5939592cd9b9f4335a4ee907fa989be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00001.png using Guid(5939592cd9b9f4335a4ee907fa989be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbf9262bf45896188ecdc986cbd4aed') in 0.030707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00020.png
+  artifactKey: Guid(d9e99148b15674c8fafeea7daa557973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00020.png using Guid(d9e99148b15674c8fafeea7daa557973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90c0a4cc445472184376ac3c2a06773') in 0.041983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000869 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00013.png
+  artifactKey: Guid(cc29a104009564a12af656f2334002ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00013.png using Guid(cc29a104009564a12af656f2334002ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e8dde7d71b6462ba5ce0e7b508ce44') in 0.033246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00006.png
+  artifactKey: Guid(786597786c8f747a581a1bfb26411214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00006.png using Guid(786597786c8f747a581a1bfb26411214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30530476c0b3b614b10739cc7b7ea674') in 0.043056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00016.png
+  artifactKey: Guid(722a3c01e00aa43119d64afdf55c050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00016.png using Guid(722a3c01e00aa43119d64afdf55c050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2ba4847f133e8900cc456b2a1e416b') in 0.033427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00017.png
+  artifactKey: Guid(98e39fe546a914dcc9274ea19783befc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00017.png using Guid(98e39fe546a914dcc9274ea19783befc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e56c25a21be0a0551ce61ce22c21c9') in 0.037584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Left/Player Turn Left0006.png
+  artifactKey: Guid(bb173694be00148b4bc0ebfa1a1e58ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Left/Player Turn Left0006.png using Guid(bb173694be00148b4bc0ebfa1a1e58ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f6698ad587b1a3d860253b2dc5abcd') in 0.037563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00004.png
+  artifactKey: Guid(f574bd8eb232a4689af64e1d5dc05a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00004.png using Guid(f574bd8eb232a4689af64e1d5dc05a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f26724ec4c06171b0b3618109e171b') in 0.033800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00017.png
+  artifactKey: Guid(e341161a4a28d43d2acab309a9952db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00017.png using Guid(e341161a4a28d43d2acab309a9952db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ded126a2c0841b68475d10041c64f25') in 0.025851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00005.png
+  artifactKey: Guid(f725332a62c60433ea73daa985ae5448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00005.png using Guid(f725332a62c60433ea73daa985ae5448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a96eed85fd3dc2abb3107dbbbf067a8') in 0.019981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00025.png
+  artifactKey: Guid(0fb0c86510f5247809520525f9b15564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00025.png using Guid(0fb0c86510f5247809520525f9b15564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f128c26ad6c7e35638ed455b713c38c') in 0.037972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00024.png
+  artifactKey: Guid(e8e2896cc975648b7adf47a617864e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00024.png using Guid(e8e2896cc975648b7adf47a617864e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9250f8bb6541b1972d68ca3bb85ad39c') in 0.060658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00027.png
+  artifactKey: Guid(0b8575480da734a70a059cf9eb025b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00027.png using Guid(0b8575480da734a70a059cf9eb025b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe3b5b3bc38ec98857c1098074ede48') in 0.058815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00018.png
+  artifactKey: Guid(84d1b40d1791a4703a24a3508945050d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00018.png using Guid(84d1b40d1791a4703a24a3508945050d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a18a8cec19c64d8ffb1756f21b392b') in 0.041511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00031.png
+  artifactKey: Guid(fe043de436dc54045aa0e28dfa8c7b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00031.png using Guid(fe043de436dc54045aa0e28dfa8c7b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f80b33245d6209eef616a7b1e1a03e8') in 0.039815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00031.png
+  artifactKey: Guid(be16f9d18299740eba37f17f3ae13810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00031.png using Guid(be16f9d18299740eba37f17f3ae13810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7f8c26442123198a8e89d567be2bed') in 0.038207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00015.png
+  artifactKey: Guid(ff51c104d85124c8fb1eb734a7fdf6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00015.png using Guid(ff51c104d85124c8fb1eb734a7fdf6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec1e46657efd68c2f7c537e311ad67d') in 0.045975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00023.png
+  artifactKey: Guid(85f8eff109860470380608e2e9ab2455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00023.png using Guid(85f8eff109860470380608e2e9ab2455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685c9a5250c4ed9d501f10a5264415b8') in 0.064606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00024.png
+  artifactKey: Guid(cee3a33e0c0d24f7183d86e8472b95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00024.png using Guid(cee3a33e0c0d24f7183d86e8472b95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbfde1238f60cf8104760fc6971ba59') in 0.055849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00004.png
+  artifactKey: Guid(4be304567ca9445c6b56e5ee5ba36e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00004.png using Guid(4be304567ca9445c6b56e5ee5ba36e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e2b09db0c92b4f8d1db97788b5c0ae') in 0.034135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00022.png
+  artifactKey: Guid(c7fc4a7c32ed244a7b332d7f47f69338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00022.png using Guid(c7fc4a7c32ed244a7b332d7f47f69338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7057b078266eb826000c2118b4ce7156') in 0.035154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00007.png
+  artifactKey: Guid(b37409cf2b45a4d51ab5b6dbe749dfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00007.png using Guid(b37409cf2b45a4d51ab5b6dbe749dfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570803d4c324c89796f8bb9ae88948f7') in 0.046597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Left/Player Turn Left0008.png
+  artifactKey: Guid(f3346fe3e2c9e4527a394f1e99d25f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Left/Player Turn Left0008.png using Guid(f3346fe3e2c9e4527a394f1e99d25f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ca908e5f25581ecbd530c4d5cb7738') in 0.033082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00008.png
+  artifactKey: Guid(a988e2147f21b42eeafdd6d67a1398c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00008.png using Guid(a988e2147f21b42eeafdd6d67a1398c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0931e477ce2368e18d2021e4f793f1b4') in 0.031265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00030.png
+  artifactKey: Guid(e899bf50f8a004016aca9245c33d0a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00030.png using Guid(e899bf50f8a004016aca9245c33d0a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b564ddf457efc4774be8b86ad639a27') in 0.035636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Left/Player Turn Left0001.png
+  artifactKey: Guid(9284343f055144054b5d7f5a72d1dbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Left/Player Turn Left0001.png using Guid(9284343f055144054b5d7f5a72d1dbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb40d92207cdaee90dc2b6932ef8dc98') in 0.030322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00005.png
+  artifactKey: Guid(91900bc67e3194397973b97573d7871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00005.png using Guid(91900bc67e3194397973b97573d7871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d88efd6cf0112223dd61e8dad8d2c17') in 0.031547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00001.png
+  artifactKey: Guid(b9b1e0bfea2594a8ab7c72b806ba1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00001.png using Guid(b9b1e0bfea2594a8ab7c72b806ba1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab22e7b40afbe8b783443b8103d8b97') in 0.029015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001036 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00021.png
+  artifactKey: Guid(f5a17a2710d6e4947b7dbd6f09df0e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00021.png using Guid(f5a17a2710d6e4947b7dbd6f09df0e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e1928ee73b2912c7bc6225fdbcd63e') in 0.045970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00002.png
+  artifactKey: Guid(78971ab2e8fdc493a89653a7f0cc5b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00002.png using Guid(78971ab2e8fdc493a89653a7f0cc5b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e587ee0cc368c090d988309dbf1458') in 0.027904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00003.png
+  artifactKey: Guid(daf5661546aee426997534d69e803087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00003.png using Guid(daf5661546aee426997534d69e803087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca80558b55bfaeafec3f980890b209e4') in 0.029060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00016.png
+  artifactKey: Guid(f8122fc90a32740bbb5e4454c086b3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00016.png using Guid(f8122fc90a32740bbb5e4454c086b3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcfe4f08802daf1f1e15e59386f964c') in 0.039296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00030.png
+  artifactKey: Guid(7b53d2e3915e84cf6bc46246ae29378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00030.png using Guid(7b53d2e3915e84cf6bc46246ae29378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a4b878ab2d0b0a628389bee4380ba3') in 0.029516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00015.png
+  artifactKey: Guid(653116d5db0fa4faeb2963cbd5038874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00015.png using Guid(653116d5db0fa4faeb2963cbd5038874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83bd607870eac6bc0c3440443015f4d') in 0.030007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00006.png
+  artifactKey: Guid(91d6b4f7541d04f8a84b544e2ba320f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00006.png using Guid(91d6b4f7541d04f8a84b544e2ba320f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cd67f1ccd8e1fb61b3e3e8d8255d61') in 0.042383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Left/Player Turn Left0000.png
+  artifactKey: Guid(1b4a8fdd39d3a45d0a9ee484ad6800ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Left/Player Turn Left0000.png using Guid(1b4a8fdd39d3a45d0a9ee484ad6800ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9046680c4bba6c154cec56adf515e559') in 0.046048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00011.png
+  artifactKey: Guid(7ce49c16c0e13450997e287915015be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00011.png using Guid(7ce49c16c0e13450997e287915015be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6154213c92b0a0d7b7e73acf8bf9b28a') in 0.037268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00012.png
+  artifactKey: Guid(1236074791aa04c62a63bb23a805edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00012.png using Guid(1236074791aa04c62a63bb23a805edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f37dce409b965ce5896ae3956033d13') in 0.042417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00011.png
+  artifactKey: Guid(f3cb92afea9964a989cbf5ca344bd40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00011.png using Guid(f3cb92afea9964a989cbf5ca344bd40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149c28deecc2f2304b36dacbc04d0f17') in 0.030365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00003.png
+  artifactKey: Guid(0a4fcb091735d4ebaba319583cbed122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00003.png using Guid(0a4fcb091735d4ebaba319583cbed122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3537af4dd6ab1b6f599928ca82628681') in 0.148487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00006.png
+  artifactKey: Guid(c722ba823f19b4ee693e239e7857f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00006.png using Guid(c722ba823f19b4ee693e239e7857f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997ec0ea100d36323ed01fff23c2cb76') in 0.027175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00007.png
+  artifactKey: Guid(f5578adaef9d34a9bab586db8a9188bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00007.png using Guid(f5578adaef9d34a9bab586db8a9188bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544f856c28da0fdb9fcc171edc7e3bd1') in 0.033975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00004.png
+  artifactKey: Guid(9a668c5bfaf6449e0916bb563a15edde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00004.png using Guid(9a668c5bfaf6449e0916bb563a15edde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4d5bfad3ccdff90210ef429b1598b1') in 0.026581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00018.png
+  artifactKey: Guid(abef6a6fdc4ab421e9da5f177026134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00018.png using Guid(abef6a6fdc4ab421e9da5f177026134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbb5a68af66ef50f5c8372945888725') in 0.027269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00014.png
+  artifactKey: Guid(a76c2bbbd8e1f45bea939ceeb3ada592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00014.png using Guid(a76c2bbbd8e1f45bea939ceeb3ada592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6daa453847f18592fb9d59833b183d') in 0.040404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00011.png
+  artifactKey: Guid(c10f06b274a164bbb8316cd6555e1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00011.png using Guid(c10f06b274a164bbb8316cd6555e1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac95258e5103ce572935bbc47f74f623') in 0.042289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00019.png
+  artifactKey: Guid(2d45817a8ac8e41bba5bc5b701048a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00019.png using Guid(2d45817a8ac8e41bba5bc5b701048a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd49fe9c335258c081f1cae6be6a54fd') in 0.038931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00017.png
+  artifactKey: Guid(3af80dabfb3d647ff94f8a630d749e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00017.png using Guid(3af80dabfb3d647ff94f8a630d749e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce88d4ce22312da4b9cd8b6dfa754147') in 0.037926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00009.png
+  artifactKey: Guid(dfa5701031e134a99a0573d342f70895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00009.png using Guid(dfa5701031e134a99a0573d342f70895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1833821a19b7641051cbdfcffed146e4') in 0.027726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00022.png
+  artifactKey: Guid(d2b526d33b19b476084bea7e7af259c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00022.png using Guid(d2b526d33b19b476084bea7e7af259c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f1e1ef6bbc69b667e2c09832223d82') in 0.056296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00020.png
+  artifactKey: Guid(5384ed7d929c146b98b21e1f48dfe591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00020.png using Guid(5384ed7d929c146b98b21e1f48dfe591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaa5387eb33e6a1162f793624d60957') in 0.039978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00011.png
+  artifactKey: Guid(6680d84ea14cd490d94fca00dd42d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00011.png using Guid(6680d84ea14cd490d94fca00dd42d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f880ac1f1f9312ee83b40310e4033845') in 0.036288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00013.png
+  artifactKey: Guid(f01b1f5ee6ee446129cb2ce5ee970d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Thruster/Thruster_00013.png using Guid(f01b1f5ee6ee446129cb2ce5ee970d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467d0f88142bb18986305c5e3d55133d') in 0.050404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00014.png
+  artifactKey: Guid(b1956f496b6494ef0b7d7233c595f193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00014.png using Guid(b1956f496b6494ef0b7d7233c595f193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8617b24c746e29a4faffa97c5ae98c3') in 0.080013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00020.png
+  artifactKey: Guid(f77bd938fdae34726a4d72c41253bfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00020.png using Guid(f77bd938fdae34726a4d72c41253bfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb1cd7871d003b79d604369508c9008') in 0.043299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00030.png
+  artifactKey: Guid(ac5743feac8594e9896814a5a6c7d973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00030.png using Guid(ac5743feac8594e9896814a5a6c7d973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d20deeae6be11e9612ddeed3d04df29') in 0.061809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00000.png
+  artifactKey: Guid(3154912113cbb4a498df6f571c74e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00000.png using Guid(3154912113cbb4a498df6f571c74e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b429411ebbf69a597784859154776f') in 0.044449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.570207 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00035.png
+  artifactKey: Guid(b509a8ae6478a4f67bc9d44a1941b1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00035.png using Guid(b509a8ae6478a4f67bc9d44a1941b1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfe208661b50eeae4a2e03b7adaff5e') in 0.027597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00037.png
+  artifactKey: Guid(70771fbb1e694440bb9c8b8fc991df83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00037.png using Guid(70771fbb1e694440bb9c8b8fc991df83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc13c72834c112a121646d47fe43216') in 0.024823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00039.png
+  artifactKey: Guid(8a6518b63895747809a33ab01016c111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00039.png using Guid(8a6518b63895747809a33ab01016c111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6597eb5d9fdc9d301ce042f699ff76f8') in 0.025811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00042.png
+  artifactKey: Guid(faaa391c7b63142adbb8a89f20602b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00042.png using Guid(faaa391c7b63142adbb8a89f20602b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09868fd046d2e7aaf0f8ddb6cedbf459') in 0.027921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00044.png
+  artifactKey: Guid(7539bb980ae3249f5882f08507b2cf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00044.png using Guid(7539bb980ae3249f5882f08507b2cf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54341b29e8530e8d06e5e394228051d0') in 0.036474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.148114 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00046.png
+  artifactKey: Guid(9f2a35d3736344c738af9f9b349edd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00046.png using Guid(9f2a35d3736344c738af9f9b349edd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f52f1ca7ab8bb9b125659be37cf1ce') in 0.029549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00048.png
+  artifactKey: Guid(8d0a90868f6ec47d59cd644182ebff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00048.png using Guid(8d0a90868f6ec47d59cd644182ebff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affc6e26ff0b63d1e8b21f001e65e126') in 0.028659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00050.png
+  artifactKey: Guid(6a8b3f96327a649b782eca76de0e14d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00050.png using Guid(6a8b3f96327a649b782eca76de0e14d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca048672540fca792ed8ae92e35d0a1') in 0.031586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00054.png
+  artifactKey: Guid(39348fee8cea641e587e0f6cbecdac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00054.png using Guid(39348fee8cea641e587e0f6cbecdac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262fc33f07f4042e91a0e60ad0272499') in 0.038627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001559 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00057.png
+  artifactKey: Guid(cd1014039b11546b5838e814a4085a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00057.png using Guid(cd1014039b11546b5838e814a4085a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd92b88a583d24f154dd4707a7363771') in 0.034963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00059.png
+  artifactKey: Guid(1557c12536b4041949a96067510ca924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00059.png using Guid(1557c12536b4041949a96067510ca924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ac599ff52cd2a77067e1e19a02d524') in 0.030684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00063.png
+  artifactKey: Guid(f87c25168fe154cdb86b0679a3640b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00063.png using Guid(f87c25168fe154cdb86b0679a3640b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54df3b0d40a7e8886668743e3f66ef0') in 0.036084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00065.png
+  artifactKey: Guid(8abc14a23d39040a488923e56a4c8234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00065.png using Guid(8abc14a23d39040a488923e56a4c8234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9a10c916f7dbebfb67e05842838301') in 0.034467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00064.png
+  artifactKey: Guid(8dd8b300582a54fd0a488c352b56fc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00064.png using Guid(8dd8b300582a54fd0a488c352b56fc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e90060ab1b4fa1a66feec43041ff9a') in 0.033224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00067.png
+  artifactKey: Guid(08df3257629e94ec6b11640058c08bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00067.png using Guid(08df3257629e94ec6b11640058c08bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0870836c6ce755f80ba1b0d0da3ed13b') in 0.028425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00069.png
+  artifactKey: Guid(bcb5e531993e54c3f8212f84d29e06bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00069.png using Guid(bcb5e531993e54c3f8212f84d29e06bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3a27f6271c1bb32b8baabc05e2851f') in 0.027254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00073.png
+  artifactKey: Guid(0074fdee9a2fb4e63b6051589b555bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00073.png using Guid(0074fdee9a2fb4e63b6051589b555bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175be2096503280b61ca10afea580c99') in 0.024526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00075.png
+  artifactKey: Guid(4accd28ae0535453b9f439e93b9c0570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00075.png using Guid(4accd28ae0535453b9f439e93b9c0570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b4f107a0ea97107ff83a9da7de0088') in 0.042391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00076.png
+  artifactKey: Guid(d41ad13d659f84d1cac8ba0c4a0a26af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00076.png using Guid(d41ad13d659f84d1cac8ba0c4a0a26af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bc17e362eaab19db1f621d73eb2bd1') in 0.023116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00079.png
+  artifactKey: Guid(63bc29a8c12e6450893989f7f66125d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00079.png using Guid(63bc29a8c12e6450893989f7f66125d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478cde16c41d7320ab9ca402f8f2494c') in 0.025340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00081.png
+  artifactKey: Guid(8df81356ffb824167b05eb24cb7744bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00081.png using Guid(8df81356ffb824167b05eb24cb7744bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a81c8a3cd4a9f7bc72eb1fc5be5d5d4') in 0.031254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00084.png
+  artifactKey: Guid(659ac1fc34e1e48118fa898dbd4d3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00084.png using Guid(659ac1fc34e1e48118fa898dbd4d3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205a89044206511165aea8446dd20053') in 0.027252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00082.png
+  artifactKey: Guid(ff7e9cbddf7a947f9b41baa6aa502dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00082.png using Guid(ff7e9cbddf7a947f9b41baa6aa502dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f987643ea1ca51872b37c91bcfec14a6') in 0.034846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00091.png
+  artifactKey: Guid(6e86d453d9f144c98849647c76dddbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00091.png using Guid(6e86d453d9f144c98849647c76dddbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae1b169c4b260507d1b3457b07b7445') in 0.034606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00094.png
+  artifactKey: Guid(0f00272c9f57a470b89cb4fd7dc1e2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00094.png using Guid(0f00272c9f57a470b89cb4fd7dc1e2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba7b6a2efed80271a8f9e54b36c2b6b') in 0.027731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00097.png
+  artifactKey: Guid(9298138094a664f57b0915c4e7818bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00097.png using Guid(9298138094a664f57b0915c4e7818bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776791767fed66e631bb55b11c1e4d5a') in 0.038085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00098.png
+  artifactKey: Guid(9dd317c10b983447a83f82b7fef4d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00098.png using Guid(9dd317c10b983447a83f82b7fef4d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3524939aa64a3d999e0a70201241d0da') in 0.028833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00100.png
+  artifactKey: Guid(ad76325917e9443eb9a0f09728104711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00100.png using Guid(ad76325917e9443eb9a0f09728104711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb1f022d2251e208e11bdef9573407c') in 0.032210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00103.png
+  artifactKey: Guid(211774765226242d6a63c6380787acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00103.png using Guid(211774765226242d6a63c6380787acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a5feae0149730554597b4fcadb2576') in 0.032358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00105.png
+  artifactKey: Guid(786d05a5be1e349c68d9ee58c9f9d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00105.png using Guid(786d05a5be1e349c68d9ee58c9f9d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81720abd248a3feca4b5be2274345911') in 0.034141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00111.png
+  artifactKey: Guid(ec0b64152df0746558b6de5443e91b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00111.png using Guid(ec0b64152df0746558b6de5443e91b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e6d9119641d0525c63a24296af903f') in 0.027092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00112.png
+  artifactKey: Guid(ebca4c98ce94943b3ac643f52e4fc7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00112.png using Guid(ebca4c98ce94943b3ac643f52e4fc7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3f893d02cb848a8239e0d2c2aa5c5d') in 0.028092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00109.png
+  artifactKey: Guid(3a67a88a3a0724d37ab734aed24934b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00109.png using Guid(3a67a88a3a0724d37ab734aed24934b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1c4e4d5f7cfda3780d5a049a08dcf2') in 0.028444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00118.png
+  artifactKey: Guid(4d1b489714fa543689153fc1c37a9479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00118.png using Guid(4d1b489714fa543689153fc1c37a9479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452a7ea3c2fd286078bd2ad26d48f5c2') in 0.038192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00121.png
+  artifactKey: Guid(66cd051153bd041f69be2ffb6ac55681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00121.png using Guid(66cd051153bd041f69be2ffb6ac55681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943fbbf70338e009975ae4dbcf96ef49') in 0.036230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00092.png
+  artifactKey: Guid(529aa54b27f9047d0a04bea0e2a94ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00092.png using Guid(529aa54b27f9047d0a04bea0e2a94ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0ec13114d9cc2438dcf21f7dbefb08') in 0.043367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00122.png
+  artifactKey: Guid(4fc7aea7e466448f0a7919d2e737d4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00122.png using Guid(4fc7aea7e466448f0a7919d2e737d4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d4abaef8a2a693c832386e583f2dba') in 0.039833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00124.png
+  artifactKey: Guid(fce84c92f155849cb998a2a6665c70c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00124.png using Guid(fce84c92f155849cb998a2a6665c70c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2050d5a7b63cf940cdb1bd8224cabdd9') in 0.033060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00128.png
+  artifactKey: Guid(d45eae35d3b4446a2b8c6e20d26853ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00128.png using Guid(d45eae35d3b4446a2b8c6e20d26853ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84c8f8d84fdc3ea269e0e764d5440b5') in 0.045608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00131.png
+  artifactKey: Guid(33a3eeb20308c4c789324a42ed6990eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00131.png using Guid(33a3eeb20308c4c789324a42ed6990eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18829a55464696d59b0296a973bc2ad8') in 0.043638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00130.png
+  artifactKey: Guid(204219265ff234b29a02de351879e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00130.png using Guid(204219265ff234b29a02de351879e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d08c3161758b9167131f63061ccfc3') in 0.030659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00137.png
+  artifactKey: Guid(3e75dbe822c0d4380b358313f1def549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00137.png using Guid(3e75dbe822c0d4380b358313f1def549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23125542425d9c352b86ed698f4327fa') in 0.028863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00139.png
+  artifactKey: Guid(4a0f9bcc3cd534cf2be391e8656bfffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00139.png using Guid(4a0f9bcc3cd534cf2be391e8656bfffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb78e8fd1029f2d4a9b64882eff1802') in 0.031739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00142.png
+  artifactKey: Guid(e074f570f1116472f81285fffb357e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00142.png using Guid(e074f570f1116472f81285fffb357e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d34ac92e8446ebb354ee86b8b165d9') in 0.041066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00144.png
+  artifactKey: Guid(afef5f3dfcf5b46dabc39a648574cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00144.png using Guid(afef5f3dfcf5b46dabc39a648574cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ed4ffb20d56bb34763c8976b2d4503') in 0.032322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00147.png
+  artifactKey: Guid(563d3f5cdcb084b09ae82ae4b9d719bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00147.png using Guid(563d3f5cdcb084b09ae82ae4b9d719bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46e7eb967153810a49d8d38a37a395c') in 0.036783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00150.png
+  artifactKey: Guid(1a180dbb0fec44f4a857c1c3316cedab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00150.png using Guid(1a180dbb0fec44f4a857c1c3316cedab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec52238f3749fb57d1ac14cb55db8e82') in 0.028291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00149.png
+  artifactKey: Guid(9549b75f7c04a4bf7bac0388bcbc7022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00149.png using Guid(9549b75f7c04a4bf7bac0388bcbc7022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97782d356d61f3380b16ac87e8d61b6a') in 0.035166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00148.png
+  artifactKey: Guid(70e162b6c360844aa951ab4b8bfec52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00148.png using Guid(70e162b6c360844aa951ab4b8bfec52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862cd3cdd707eaebe2fbbceb6a26abed') in 0.026480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00157.png
+  artifactKey: Guid(d23e2f57007dc4330bcbb17700957c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00157.png using Guid(d23e2f57007dc4330bcbb17700957c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6135bff24518d4bed15cbb2c6902c0') in 0.042238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00133.png
+  artifactKey: Guid(1151a885ef3de475983a9c99a7700a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00133.png using Guid(1151a885ef3de475983a9c99a7700a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d62bdc966afa52b35b4f4008396be4') in 0.042440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00088.png
+  artifactKey: Guid(3919c0b26b48c445490500727b1400f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00088.png using Guid(3919c0b26b48c445490500727b1400f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc91a2466d937523099bbc5fb6ba547') in 0.049381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00074.png
+  artifactKey: Guid(5f57f87e317d74c1db1150cc6fc04ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00074.png using Guid(5f57f87e317d74c1db1150cc6fc04ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3753f8425fbf1c264b2ef153f19c6c48') in 0.046097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00085.png
+  artifactKey: Guid(61fef248f5e454ae8a678a0e27817485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00085.png using Guid(61fef248f5e454ae8a678a0e27817485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270559f4fc3f6c1dbc33bc4e8446d8e1') in 0.060219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00151.png
+  artifactKey: Guid(1edb4666dbc704d80ae3a8aac3d9660c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00151.png using Guid(1edb4666dbc704d80ae3a8aac3d9660c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a33bedb2d71f36081b544a9add35814') in 0.046660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00155.png
+  artifactKey: Guid(cc6d7a7e57d2744b2a1f2ec16526d075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00155.png using Guid(cc6d7a7e57d2744b2a1f2ec16526d075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28eae5663eb591dbb15e42b62c0dea00') in 0.051917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00119.png
+  artifactKey: Guid(b567d3f65133f4011bac3e2cd1c5b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00119.png using Guid(b567d3f65133f4011bac3e2cd1c5b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb364d864d69e313d551b1f378f5160') in 0.052741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00107.png
+  artifactKey: Guid(f688bc61c8cc54009a0a59c31009a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00107.png using Guid(f688bc61c8cc54009a0a59c31009a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eaa4db5e88db54053f080b9c39eadf') in 0.070480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00125.png
+  artifactKey: Guid(74167e4b7250743fba6b50a1c6599904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00125.png using Guid(74167e4b7250743fba6b50a1c6599904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b626d5dd7f9152850359f1ea09222c96') in 0.035187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00068.png
+  artifactKey: Guid(b7f5a08d971c6436a8d0d4dd27ce2025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00068.png using Guid(b7f5a08d971c6436a8d0d4dd27ce2025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66f9eaec623ca456580db9b8cace6e3') in 0.045983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00153.png
+  artifactKey: Guid(869ae0243a6794051ba8f7f17071efcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00153.png using Guid(869ae0243a6794051ba8f7f17071efcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c56e7455a98ffc9088439866cd6bfc5') in 0.055572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.663352 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00144.png
+  artifactKey: Guid(a93478cc813924a6d85ecb54a8085791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00144.png using Guid(a93478cc813924a6d85ecb54a8085791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396c7481068f7f4de6bed263ac6b6168') in 0.033739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00147.png
+  artifactKey: Guid(e743cdaed082647e798d8145ff889a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00147.png using Guid(e743cdaed082647e798d8145ff889a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18117be64e15685ffc78dafc7354829b') in 0.041748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001131 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00151.png
+  artifactKey: Guid(9af57da9ef0c745f4be8c14339aa9ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00151.png using Guid(9af57da9ef0c745f4be8c14339aa9ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8633622105fc0809574648cc4b0f7e') in 0.038973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00154.png
+  artifactKey: Guid(4f919d68f9ccb46b99ea3df7d2d8ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00154.png using Guid(4f919d68f9ccb46b99ea3df7d2d8ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13b904e17fbad1125423b6fc47d0d0d') in 0.045378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00156.png
+  artifactKey: Guid(b58d14cd43288416aa193e8055f052d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00156.png using Guid(b58d14cd43288416aa193e8055f052d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6405c4b13eae905a808fa6840a50eb') in 0.042583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000934 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00157.png
+  artifactKey: Guid(165bb423423fc4a569194618186b33f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00157.png using Guid(165bb423423fc4a569194618186b33f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c21b6474e7db532b39458b6d931e42') in 0.038038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00150.png
+  artifactKey: Guid(529eaf4f0c28a4fe6a94141067acd466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00150.png using Guid(529eaf4f0c28a4fe6a94141067acd466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0a011ed4934887a6d7095fd0f8e2c2') in 0.041810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.773301 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00045.png
+  artifactKey: Guid(12fd7f0d3ade74968ad2d5c45e3b0dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00045.png using Guid(12fd7f0d3ade74968ad2d5c45e3b0dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e4a85220f10ae2f02709b383795ee8') in 0.031020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00047.png
+  artifactKey: Guid(efe1c96d5ad364cb1b8b269684f99bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00047.png using Guid(efe1c96d5ad364cb1b8b269684f99bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdd5929f34795c26a689a296fad308c') in 0.029642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00049.png
+  artifactKey: Guid(83d054dcc582b4d6eb36b4ed9bad218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00049.png using Guid(83d054dcc582b4d6eb36b4ed9bad218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6901f7ca6bd9e88f07f08d320b046f6') in 0.027684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00051.png
+  artifactKey: Guid(0d2a3411cd96d4376bfc43624c9d28aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00051.png using Guid(0d2a3411cd96d4376bfc43624c9d28aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6476a2b4d8f08857d9e194c6d5e5ddb0') in 0.026247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00055.png
+  artifactKey: Guid(9762b8f440aef4ced949fec76db6ccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00055.png using Guid(9762b8f440aef4ced949fec76db6ccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e03d87f1de554bc18e3853450ea7280') in 0.026891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00053.png
+  artifactKey: Guid(02c84fb491fb84f9983957933d7b1958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00053.png using Guid(02c84fb491fb84f9983957933d7b1958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e6807c22c4cef887896a28ee3bdd6f') in 0.037879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00060.png
+  artifactKey: Guid(d83579cdff4734088a5d1cc6055da698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00060.png using Guid(d83579cdff4734088a5d1cc6055da698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3fafc1efedd4fec2a1f584ef439235') in 0.043443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00058.png
+  artifactKey: Guid(99ae4220665ea4376ad2e9797d8e64cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00058.png using Guid(99ae4220665ea4376ad2e9797d8e64cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e1cd0b9a5d3a62557fe1b739852bc1') in 0.046181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.721312 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00001.png
+  artifactKey: Guid(4ea61a9455584432a8ccb6d82066f861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00001.png using Guid(4ea61a9455584432a8ccb6d82066f861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cdda1434c67a3dc7d678f18ee881bf') in 0.029621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00003.png
+  artifactKey: Guid(89aeb0633734b4526bf102717d52a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00003.png using Guid(89aeb0633734b4526bf102717d52a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e994d3b4bd43693f9645cbeec3d436') in 0.039844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00004.png
+  artifactKey: Guid(fd5a2d175736b42c6b5dcab90172ceb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00004.png using Guid(fd5a2d175736b42c6b5dcab90172ceb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad5a07094770561332205c6a56ed5c9') in 0.029110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00006.png
+  artifactKey: Guid(7b111af9da8424aeabb8f9f17684d021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00006.png using Guid(7b111af9da8424aeabb8f9f17684d021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878ff0522142da6de7bee8fe47b5fd66') in 0.029449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00012.png
+  artifactKey: Guid(6dc7d677d6e5a4f8aa3d049730873d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00012.png using Guid(6dc7d677d6e5a4f8aa3d049730873d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f287c009078bcd5fc05f5526764a8c') in 0.027870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00013.png
+  artifactKey: Guid(af42f47c843f240ebb2447ea18ed910c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00013.png using Guid(af42f47c843f240ebb2447ea18ed910c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911e99000c9f0630dcca7e01f5472d47') in 0.048519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00010.png
+  artifactKey: Guid(ab4d2edbeeb18455c9417fe4f46e859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00010.png using Guid(ab4d2edbeeb18455c9417fe4f46e859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01209354382578c1ad86240fef9e19aa') in 0.048748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00009.png
+  artifactKey: Guid(03c9786d3131a469586f726888fae1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Shield/Shields_00009.png using Guid(03c9786d3131a469586f726888fae1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d45989e75d1766988407ed3d512c1d') in 0.039494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.313246 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Right/Player Turn Right0001.png
+  artifactKey: Guid(b3ab8b6c15fbb4bf5bdca33e151a4d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Right/Player Turn Right0001.png using Guid(b3ab8b6c15fbb4bf5bdca33e151a4d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcefa9423860e01471e67d0436062775') in 0.028465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Right/Player Turn Right0003.png
+  artifactKey: Guid(642f2ccf679e74095a9a13fa5e839005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Right/Player Turn Right0003.png using Guid(642f2ccf679e74095a9a13fa5e839005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3c93563485b0056b412229bb37ead5') in 0.027256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Right/Player Turn Right0006.png
+  artifactKey: Guid(859bb78ca669f4810a60697db925b402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Right/Player Turn Right0006.png using Guid(859bb78ca669f4810a60697db925b402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c8e1552086d7a04c4cfb82b3044df2') in 0.030431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Right/Player Turn Right0008.png
+  artifactKey: Guid(c83085279e66140008ba22ca901f4c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Turn_Right/Player Turn Right0008.png using Guid(c83085279e66140008ba22ca901f4c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12d1370a2645519417f484dfad2e5d1') in 0.047726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.668382 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/UI/Lives/One.png
+  artifactKey: Guid(80fba5ece7697c44eacc036539c1b552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/UI/Lives/One.png using Guid(80fba5ece7697c44eacc036539c1b552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b15e4dee1f0ed1c6e583e312047eb0') in 0.030791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/UI/Lives/Two.png
+  artifactKey: Guid(482c8e4c0346b704aa5f1760c3c989d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/UI/Lives/Two.png using Guid(482c8e4c0346b704aa5f1760c3c989d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25e9b9ccb1f512e91709b1d85599088') in 0.032981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 24.399944 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00035.png
+  artifactKey: Guid(b2482e14e17d14409bd610a03856206e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00035.png using Guid(b2482e14e17d14409bd610a03856206e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04fb5444af2e22462ae9e2c0104ea67') in 0.024698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00037.png
+  artifactKey: Guid(48f3fa46f18ed4f76a575fd05255c485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00037.png using Guid(48f3fa46f18ed4f76a575fd05255c485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499409ab12ca2bd2423ad4dcb3c91a42') in 0.027299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00040.png
+  artifactKey: Guid(0cc757a8bfc7c49f186df041b0e23d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00040.png using Guid(0cc757a8bfc7c49f186df041b0e23d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf5a055cb1bee3b17b885e392bebf54') in 0.022768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00042.png
+  artifactKey: Guid(6715a890046864741a486e6345de6455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00042.png using Guid(6715a890046864741a486e6345de6455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0126869e206243789978dd16804c55ea') in 0.028896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00043.png
+  artifactKey: Guid(27642d106d1bd45579b85da9127236ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Player_Hurt/Fire_00043.png using Guid(27642d106d1bd45579b85da9127236ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053837edd9e251e3038058274d0c25dd') in 0.029353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.853424 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00045.png
+  artifactKey: Guid(b2bd7f3ae967f4084a3750a2eaada7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00045.png using Guid(b2bd7f3ae967f4084a3750a2eaada7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45612c3b17407c5ba4d230e307f676d6') in 0.027994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00047.png
+  artifactKey: Guid(737a16533b57349d6bd1937e67b3c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00047.png using Guid(737a16533b57349d6bd1937e67b3c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830af265e0c9c458ff53b9966917ffb1') in 0.027218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00050.png
+  artifactKey: Guid(f9a70c5295d714cb6afc58c24ccb35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00050.png using Guid(f9a70c5295d714cb6afc58c24ccb35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726afa9d5dc6a6e1cffbd7a520ee834e') in 0.028701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00052.png
+  artifactKey: Guid(4bfee2190ee894cd0a564ffa47967af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00052.png using Guid(4bfee2190ee894cd0a564ffa47967af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4fee5d67ef10f3b1d67ddcc21ac3b0') in 0.028898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00055.png
+  artifactKey: Guid(dcad79d3609c74ffbad9eef1f8bd998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00055.png using Guid(dcad79d3609c74ffbad9eef1f8bd998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a1cbc18ab59f16c456e6443ed01626') in 0.029574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00058.png
+  artifactKey: Guid(1b16faa86f0364cb0b15268ced77c365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00058.png using Guid(1b16faa86f0364cb0b15268ced77c365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d6a7930642a8b918a19c1969b07d64') in 0.027679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00061.png
+  artifactKey: Guid(b935cae89070d4dddb8c018e077e9148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00061.png using Guid(b935cae89070d4dddb8c018e077e9148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775e981493b51abef0f6e1241249ca50') in 0.026472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00063.png
+  artifactKey: Guid(5da6811f7e6d24b4b8e0a9dd3e69bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00063.png using Guid(5da6811f7e6d24b4b8e0a9dd3e69bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a83b3a559b86b222eee78ca3fccccb') in 0.030460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00066.png
+  artifactKey: Guid(ae91804d7ad3d40de8d510df026adc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00066.png using Guid(ae91804d7ad3d40de8d510df026adc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a5d44b05ae5b4944da8a38c269eb98') in 0.028296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00069.png
+  artifactKey: Guid(1d8e43943961b437fbb96acb200e2d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00069.png using Guid(1d8e43943961b437fbb96acb200e2d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfaf1efcc9f2fc6599b67abfce56899') in 0.028669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00072.png
+  artifactKey: Guid(f31ba527e22fe4bacb042f37804d8e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00072.png using Guid(f31ba527e22fe4bacb042f37804d8e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113b0b6a13c547f0291d414f00c71a61') in 0.028873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003454 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00060.png
+  artifactKey: Guid(6f0742280bb794baeb9d837f1d821011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00060.png using Guid(6f0742280bb794baeb9d837f1d821011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7ae9cb0a3af12755104f89b5bbbc9e') in 0.045890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00077.png
+  artifactKey: Guid(30d37ae0d67164c1592f31f4642d041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00077.png using Guid(30d37ae0d67164c1592f31f4642d041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3e80c9d7e2c82b117a44c4d54e3004') in 0.049857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00056.png
+  artifactKey: Guid(2e80a065d09564efd99b3c8484d36b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00056.png using Guid(2e80a065d09564efd99b3c8484d36b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef35f3f62e0ebffa63699043873eaf27') in 0.057126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00074.png
+  artifactKey: Guid(665d3058c31a24bdbaa1a9fb4fef0694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00074.png using Guid(665d3058c31a24bdbaa1a9fb4fef0694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a17ec12d8482c3a4b6ad64d5a2c2805') in 0.035977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00078.png
+  artifactKey: Guid(d2ba380d025c44668a2250d31e0cf9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00078.png using Guid(d2ba380d025c44668a2250d31e0cf9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85bb1425567040b3a0067ed59420539') in 0.033937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00082.png
+  artifactKey: Guid(94a3ee05b6abb47c7a64b5534b517070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00082.png using Guid(94a3ee05b6abb47c7a64b5534b517070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7f8ec50a1115df98a0a0febe8c3975') in 0.119132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004975 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00086.png
+  artifactKey: Guid(c1166bfef73b54f91af5b7d609f1b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00086.png using Guid(c1166bfef73b54f91af5b7d609f1b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd27c736e320891244112bdf9fcbd89c') in 0.062386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000989 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00092.png
+  artifactKey: Guid(a888d8489650b40779af5b693cc98a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00092.png using Guid(a888d8489650b40779af5b693cc98a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998040a77b8bae5bfcc827adf6168881') in 0.031210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00094.png
+  artifactKey: Guid(e57f5052a0d54448789cf35aa17f44bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00094.png using Guid(e57f5052a0d54448789cf35aa17f44bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473e6ed49c8b9b1bdcc7bc36225a1318') in 0.029778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00099.png
+  artifactKey: Guid(557f5be19e02c4f14a7ad5970e84b638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00099.png using Guid(557f5be19e02c4f14a7ad5970e84b638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fd64d36bffb929d158ff0308d7fb97') in 0.032097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00102.png
+  artifactKey: Guid(45db42ac1f8f14d23859ac586f6f011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00102.png using Guid(45db42ac1f8f14d23859ac586f6f011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cb3677e5335aef2d453be5583c7957') in 0.040377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00105.png
+  artifactKey: Guid(ea5ebee4522fe4d41a7fe73a4a9cc4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00105.png using Guid(ea5ebee4522fe4d41a7fe73a4a9cc4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca9801f0f10f3035c78a6e5177ee6bc') in 0.045690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00108.png
+  artifactKey: Guid(2370ec9bb8f5149a389dc30589b6a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00108.png using Guid(2370ec9bb8f5149a389dc30589b6a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563cebcda50c10cfa6fb9dc72bde43d4') in 0.045672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00104.png
+  artifactKey: Guid(e8c52b8b399b645cc91b496d6d7bc97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00104.png using Guid(e8c52b8b399b645cc91b496d6d7bc97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f60609764136b2d022205cbfe9e869f') in 0.035936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00114.png
+  artifactKey: Guid(f12956044edc34f9d907b287bcb34ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00114.png using Guid(f12956044edc34f9d907b287bcb34ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0dc36c1b01b190ae3a0fffd595e668') in 0.037583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00116.png
+  artifactKey: Guid(54dbd2515abf845df9dc6281f6290128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00116.png using Guid(54dbd2515abf845df9dc6281f6290128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c42a3c2bee23bad31ab0c3b3da8f5d4') in 0.028730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00090.png
+  artifactKey: Guid(0eb05621d9960488b828694fca4bd74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00090.png using Guid(0eb05621d9960488b828694fca4bd74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65e8fa5b45eda6f8ddf03786424163e') in 0.072469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00122.png
+  artifactKey: Guid(d8a7707ab40384557a93c59e792c38d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00122.png using Guid(d8a7707ab40384557a93c59e792c38d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baae1cb70de6ef82dced804bf4ebfd94') in 0.029234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00126.png
+  artifactKey: Guid(a11f39f24045d48aaa94df09016fe123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00126.png using Guid(a11f39f24045d48aaa94df09016fe123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3031736a93a7db8185e2677b4ad1b01f') in 0.034522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00128.png
+  artifactKey: Guid(c80923f3c3c3a42b7aacd6380f7f4cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00128.png using Guid(c80923f3c3c3a42b7aacd6380f7f4cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307209d66e3679d73c331f80468f1417') in 0.041275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00130.png
+  artifactKey: Guid(6b35b0945102b4a27bf8df494836d41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00130.png using Guid(6b35b0945102b4a27bf8df494836d41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918506ce4634d5e0a7027120e7301cac') in 0.031649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00134.png
+  artifactKey: Guid(99aba842c93e34b81905d22146bb0a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00134.png using Guid(99aba842c93e34b81905d22146bb0a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460dff36084e53ddb76dad5d87256e48') in 0.046719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006533 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00137.png
+  artifactKey: Guid(1ca29a2f1332c40b69514ef995190081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00137.png using Guid(1ca29a2f1332c40b69514ef995190081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e706c0c20dbe5ee9a6c553ff302c54') in 0.061419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013338 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00141.png
+  artifactKey: Guid(42264e3d6a484434f90c68d029679f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00141.png using Guid(42264e3d6a484434f90c68d029679f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bbcdec643f679353f2e675f8690c53') in 0.057348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00139.png
+  artifactKey: Guid(b28655d34842b4fffbb045a2e859872e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00139.png using Guid(b28655d34842b4fffbb045a2e859872e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6106ef50f22b2fb64fed19666a487b6d') in 0.048177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00140.png
+  artifactKey: Guid(e6a7dd5db2aa84619ada18ec501a1491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00140.png using Guid(e6a7dd5db2aa84619ada18ec501a1491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669d3405684ec185c75a039717fc9477') in 0.054057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00087.png
+  artifactKey: Guid(00531221351834369aca584c05ba22a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00087.png using Guid(00531221351834369aca584c05ba22a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f5652e29e3bffc94e0b9fa1c619808') in 0.051300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00113.png
+  artifactKey: Guid(68bbd983042164fed910ee97dc6335d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00113.png using Guid(68bbd983042164fed910ee97dc6335d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8386c5087a167c3335a77d067bda4030') in 0.037566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001092 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00124.png
+  artifactKey: Guid(47352f872e40b44d4ac675de934a583b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00124.png using Guid(47352f872e40b44d4ac675de934a583b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1854d73e050810f4b2bbb6f64569cb77') in 0.061657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00120.png
+  artifactKey: Guid(4979cbdac38b6463eb4502dc57c997e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00120.png using Guid(4979cbdac38b6463eb4502dc57c997e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc0a41edfa203f65e828331b0e0403c') in 0.072439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00118.png
+  artifactKey: Guid(036ba198b1f834a068020525f07bcc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00118.png using Guid(036ba198b1f834a068020525f07bcc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0d55c95e349914f13ae935d39c3c64') in 0.043448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00110.png
+  artifactKey: Guid(b52f59f3b583a4f819465ee035e0a09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00110.png using Guid(b52f59f3b583a4f819465ee035e0a09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd573542449a99fe7ed0e9587bb97168d') in 0.047501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00095.png
+  artifactKey: Guid(a134f177856bb4603bde8349d2662189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00095.png using Guid(a134f177856bb4603bde8349d2662189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24ecb0f7060f79e326f09cd74e58208') in 0.043065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00111.png
+  artifactKey: Guid(a4e43d8a6d44142e6ac3d4604dc0be2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00111.png using Guid(a4e43d8a6d44142e6ac3d4604dc0be2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bda394fd272f32bb970f86beadc34eb') in 0.064092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00112.png
+  artifactKey: Guid(53037eb2c6f4e44fcb16d285e1494c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00112.png using Guid(53037eb2c6f4e44fcb16d285e1494c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d851621e4c57f84b4882d54525df35e') in 0.031784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00135.png
+  artifactKey: Guid(8ec8251880a5e493ab0ebe604524b72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00135.png using Guid(8ec8251880a5e493ab0ebe604524b72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f36612400eb1451b8731a42ad205b8') in 0.030308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00088.png
+  artifactKey: Guid(47877e4eb42054f5f8d4784272e73728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00088.png using Guid(47877e4eb42054f5f8d4784272e73728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f806ae4861244c408ae9ef2188ce9d51') in 0.042061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00070.png
+  artifactKey: Guid(d9d007d9f2af3463eb59e7a83b85a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Explosion/Explosion_00070.png using Guid(d9d007d9f2af3463eb59e7a83b85a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbe6b2605ff3f2bf289a2a787abff8e') in 0.037879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 26.924427 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00001.png
+  artifactKey: Guid(d4c04a6e02a3c4a41b8a8c547a881c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00001.png using Guid(d4c04a6e02a3c4a41b8a8c547a881c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cef553d02cb662e2f19c7b7f6b63f4') in 0.026551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00003.png
+  artifactKey: Guid(d1f03e683e3e74fd69b10f273c9f363f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00003.png using Guid(d1f03e683e3e74fd69b10f273c9f363f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f875240a27b1f7d5ee215fc55c2b95') in 0.032276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00006.png
+  artifactKey: Guid(c4be600e9e5ba44f185241c5b13843bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00006.png using Guid(c4be600e9e5ba44f185241c5b13843bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384a2aa037cfc52800735c749ac74b1f') in 0.039797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00008.png
+  artifactKey: Guid(938dd37514bec45d39613a42a06a1cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00008.png using Guid(938dd37514bec45d39613a42a06a1cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47f840567eadcb07e9ca934e4dbccf3') in 0.031807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00010.png
+  artifactKey: Guid(962f1aafaa24df44ca9130cedfa4bd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00010.png using Guid(962f1aafaa24df44ca9130cedfa4bd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8ad991e8f6f60e027401f1fa2d2b8d') in 0.038002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00014.png
+  artifactKey: Guid(12919bebd08f5e947a361e8a1a93ba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00014.png using Guid(12919bebd08f5e947a361e8a1a93ba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbca2215454697fc45d5599b5d712da8') in 0.033688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00011.png
+  artifactKey: Guid(f980ecb3e759df848b9f8880d0ae46fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00011.png using Guid(f980ecb3e759df848b9f8880d0ae46fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa29e0cf92a62972f8904ea1f53eec43') in 0.028162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00007.png
+  artifactKey: Guid(8788e2dc8f4f34762913b838e53065ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Shield/Powerup2_0008_00007.png using Guid(8788e2dc8f4f34762913b838e53065ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27abf2028503ef05293685f5d731722') in 0.030549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.336436 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00001.psd
+  artifactKey: Guid(25813c6fe10cf6c43b92057c55fe21bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00001.psd using Guid(25813c6fe10cf6c43b92057c55fe21bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabd800fd9ab9bcc334400f282f4c81b') in 0.035137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00003.psd
+  artifactKey: Guid(73f17f0ea9044d5419812f58e8154a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00003.psd using Guid(73f17f0ea9044d5419812f58e8154a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aac8b8cadf4a9d7e52625ebd0230580') in 0.031708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00004.psd
+  artifactKey: Guid(4ef041ab5e189614f92e3d34f3fb7b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00004.psd using Guid(4ef041ab5e189614f92e3d34f3fb7b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5035b1a061a41b9e2f1a7878f0da720a') in 0.028025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00008.psd
+  artifactKey: Guid(2486687f5b9cec34fbd039e818fcd398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00008.psd using Guid(2486687f5b9cec34fbd039e818fcd398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d64cddc905a78fe0de94d497e1904a') in 0.025984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00011.psd
+  artifactKey: Guid(90a8c9325bb9fd4478658c0f72c135ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00011.psd using Guid(90a8c9325bb9fd4478658c0f72c135ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6455f5a3eba6c58596c1e80ba9cae119') in 0.027217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00014.psd
+  artifactKey: Guid(55bd0bf19a65f4c4c8c025b57c92d5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00014.psd using Guid(55bd0bf19a65f4c4c8c025b57c92d5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eda40892f16a07ebb08fc34c00a6921') in 0.031395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00012.psd
+  artifactKey: Guid(06e00fa6af8638a4ba5e66629f30e8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00012.psd using Guid(06e00fa6af8638a4ba5e66629f30e8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec47912484f5698c3bb23b8556070a9') in 0.032310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00007.psd
+  artifactKey: Guid(5a268b4f96c2b004ea1a38c78e2277a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00007.psd using Guid(5a268b4f96c2b004ea1a38c78e2277a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13308f030197e39cef91253201eb13b1') in 0.028070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.762541 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00001.png
+  artifactKey: Guid(94af496add7d99549a0a09e585214f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00001.png using Guid(94af496add7d99549a0a09e585214f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97813ab36cc51fb5bb94a398a46924ce') in 0.028645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00003.png
+  artifactKey: Guid(3f1c2590613aad2458e88e95f67764a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00003.png using Guid(3f1c2590613aad2458e88e95f67764a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcea82d3b483d5002e0670aad8c953c2') in 0.032079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00006.png
+  artifactKey: Guid(a58a8d41efafe8343b08c0b7f3b1b916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00006.png using Guid(a58a8d41efafe8343b08c0b7f3b1b916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2116948ff1f5c9cc85fdfc94ce511f') in 0.027450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00009.png
+  artifactKey: Guid(27c59d36a1e7ec540864bea51d49bdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00009.png using Guid(27c59d36a1e7ec540864bea51d49bdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7c957583528858abb6dde04cc766be') in 0.030569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00008.png
+  artifactKey: Guid(d371d99a043ff16448c9dc33862f94f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00008.png using Guid(d371d99a043ff16448c9dc33862f94f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0eae9d79b58ee36d8863faa996be9df') in 0.025690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00010.png
+  artifactKey: Guid(95c617d16f9b8a9448ac5779db6e4c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00010.png using Guid(95c617d16f9b8a9448ac5779db6e4c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e850f3cf7b7232c4d40d766c4b77aa') in 0.031894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00012.png
+  artifactKey: Guid(bb5ba4f63cfbfdb4eb8a9bc18fd5c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00012.png using Guid(bb5ba4f63cfbfdb4eb8a9bc18fd5c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223c3e0424f5e2f2290ad9588aa876a7') in 0.027638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00011.png
+  artifactKey: Guid(b2cdea34ebf3d9a4ebc57de48bbd1a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00011.png using Guid(b2cdea34ebf3d9a4ebc57de48bbd1a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ec3fb334f09cd13e0b24520e6a8c98') in 0.032104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 84.359804 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/laser.png
+  artifactKey: Guid(b030d335857201646be69703e678d6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/laser.png using Guid(b030d335857201646be69703e678d6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20d1291196fcfae30f7852f46b8f6b4') in 0.026686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/SpaceBG_Overlay.png
+  artifactKey: Guid(351f30ffb741fd643b82bde90a222699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galaxy Shooter/2D Galaxy Assets/Game/Sprites/SpaceBG_Overlay.png using Guid(351f30ffb741fd643b82bde90a222699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7522d2af5fb33ec2bfb8b57a8bd7639') in 0.029245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
